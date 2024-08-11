@@ -1,5 +1,5 @@
 
 [build]
   base = "website/frontend/my_app"
-  publish = "website/frontend/my_app/build"
+  publish = "build"
   command = "npm run build"
