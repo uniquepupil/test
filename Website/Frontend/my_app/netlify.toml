@@ -1,4 +1,5 @@
-[[redirects]]
-from = "/*"
-to = "/index.html"
-status = 200
+
+[build]
+  base = "website/frontend/my_app"
+  publish = "website/frontend/my_app/build"
+  command = "npm run build"
